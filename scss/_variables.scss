@@ -1,0 +1,29 @@
+:root {
+  --main-title-weight: 800;
+  --main-subtitle-weight: 700;
+  --main-text-weight: 600;
+  --main-subtext-weight: 500;
+  --main-smoll-weight: 400;
+  --main-body-color: linear-gradient(63.56deg, #6B50FF 48.13%, #A145FF 100%);
+  --main-title-color: #211f25;
+  --main-text-color: #3d3a41;
+  --main-card-color: #f7f5ff;
+  --main-link-color: #ff007a;
+  --main-dark-bg-color: #000;
+  --main-dark-link-color: #ff94c7;
+  --main-dark-title: #fff;
+  --main-dark-text: #d6d6d6;
+}
+
+.dark {
+  --main-link-color: #ff94c7;
+  --main-section-title: #fff;
+  --main-section-text:#d6d6d6;
+  --main-dark-item:#211f25;
+  --main-body-color:#000;
+  --main-card-bg: #000;
+  --main-card-hover:#211f25;
+  --main-card-color:#211F25;
+  --main-carusel-hover:#555555;
+  --main-form-color:linear-gradient(72.67deg, #1A1822 2.78%, #9040E3 173.27%), #6B50FF;
+}

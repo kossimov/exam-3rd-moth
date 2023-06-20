@@ -1,0 +1,145 @@
+.pricing {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.pricing__main-texts {
+  max-width: 277px;
+}
+
+.pricing__title {
+  margin-bottom: 10px;
+  font-weight: var(--main-subtitle-weight);
+  font-size: 32px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: var(--main-dark-bg-color);
+}
+
+.pricing__text {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-dark-bg-color);
+}
+
+.pricing__item {
+  max-width: 308px;
+  margin-bottom: 42px;
+  padding: 12px;
+  border: 1px solid transparent;
+}
+
+.pricing__item:hover {
+  border-color: #FF007A;
+  border-radius: 17px;
+}
+
+.pricing__subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: var(--main-title-color);
+}
+
+.pricing__strong {
+  display: block;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+  text-align: center;
+  color: #211F25;
+}
+
+.pricing__subtext {
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.pricing__subitem {
+  display: flex;
+}
+
+.pricing__subitem::before {
+  margin-right: 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/Check.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.pricing__maintext {
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+
+.pricing__link {
+  display: inline-block;
+  width: 294px;
+  margin-top: 24px;
+  padding: 16px 113px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FF007A;
+  border: 1px solid #FF007A;
+  border-radius: 32px;
+}
+
+.pricing__item:hover .pricing__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.6098px;
+  line-height: 150%;
+  color: #FFFFFF;
+  background: #FF007A;
+  border-radius: 32px;
+}
+
+@media only screen and (min-width:767px) {
+  .pricing__main-texts {
+    max-width: 584px;
+    margin-bottom: 80px;
+  }
+
+  .pricing__title {
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .pricing__item {
+    max-width: 408px;
+    padding: 32px;
+  }
+
+  .pricing__link {
+    width: 342px;
+    margin-top: 24px;
+    padding: 16px 130px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FF007A;
+    border: 1px solid #FF007A;
+    border-radius: 32px;
+  }
+}
